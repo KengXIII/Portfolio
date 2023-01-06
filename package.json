@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://kengxiii.github.io/Portfolio/",
+  "homepage": "https://kengxiii.github.io/portfolio",
   "private": false,
   "dependencies": {
     "@popperjs/core": "^2.11.6",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "predeploy": "npm run build",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
