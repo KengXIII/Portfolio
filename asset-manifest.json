@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0d468f8.css",
-    "main.js": "/static/js/main.38d02204.js",
-    "static/media/helpmemahjong.png": "/static/media/helpmemahjong.bd97eff5d40fd49063eb.png",
-    "static/media/avatar.jpg": "/static/media/avatar.7531c6caf563186c15ee.jpg",
-    "static/media/tracko.png": "/static/media/tracko.4cca1c252ae0d9969238.png",
-    "static/media/taskgo.jpg": "/static/media/taskgo.564a8e52ea3ed15d0ce6.jpg",
-    "static/media/peer_prep.png": "/static/media/peer_prep.cc59ee71e89beffdfed0.png",
-    "static/media/cnn.png": "/static/media/cnn.c004159cdd0d54a044c0.png",
-    "static/media/github.png": "/static/media/github.d988e76015737a925215.png",
-    "static/media/KI_logo.png": "/static/media/KI_logo.c11fc30409bf40c96230.png",
-    "static/media/linkedin_fixed.png": "/static/media/linkedin_fixed.de412dd032230d36dafe.png",
-    "index.html": "/index.html",
-    "main.e0d468f8.css.map": "/static/css/main.e0d468f8.css.map",
-    "main.38d02204.js.map": "/static/js/main.38d02204.js.map"
+    "main.css": "/portfolio/static/css/main.e0d468f8.css",
+    "main.js": "/portfolio/static/js/main.2cf641c0.js",
+    "static/media/helpmemahjong.png": "/portfolio/static/media/helpmemahjong.bd97eff5d40fd49063eb.png",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.7531c6caf563186c15ee.jpg",
+    "static/media/tracko.png": "/portfolio/static/media/tracko.4cca1c252ae0d9969238.png",
+    "static/media/taskgo.jpg": "/portfolio/static/media/taskgo.564a8e52ea3ed15d0ce6.jpg",
+    "static/media/peer_prep.png": "/portfolio/static/media/peer_prep.cc59ee71e89beffdfed0.png",
+    "static/media/cnn.png": "/portfolio/static/media/cnn.c004159cdd0d54a044c0.png",
+    "static/media/github.png": "/portfolio/static/media/github.d988e76015737a925215.png",
+    "static/media/KI_logo.png": "/portfolio/static/media/KI_logo.c11fc30409bf40c96230.png",
+    "static/media/linkedin_fixed.png": "/portfolio/static/media/linkedin_fixed.de412dd032230d36dafe.png",
+    "index.html": "/portfolio/index.html",
+    "main.e0d468f8.css.map": "/portfolio/static/css/main.e0d468f8.css.map",
+    "main.2cf641c0.js.map": "/portfolio/static/js/main.2cf641c0.js.map"
   },
   "entrypoints": [
     "static/css/main.e0d468f8.css",
-    "static/js/main.38d02204.js"
+    "static/js/main.2cf641c0.js"
   ]
 }
