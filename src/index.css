@@ -6,6 +6,7 @@
   html {
     font-family: League Spartan;
     @apply text-[#E8EDF0];
+    @apply text-base sm:text-lg
   }
 }
 

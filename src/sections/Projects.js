@@ -1,18 +1,161 @@
+import PeerPrep from '../image/peer_prep.png'
+import cnn from '../image/cnn.png'
+import helpmemahjong from '../image/helpmemahjong.png'
+
 function Projects() {
     return (
         <div>
-            <h1 className='text-6xl font-bold'>My Projects</h1>
+            <div className='flex'>
+                <h1 className='text-6xl font-bold text-center w-10/15 mr-5'>My Projects</h1>
+            </div>
             <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in turpis sed leo rutrum aliquet. Nullam imperdiet, libero id varius consequat, leo ex dictum nisl, et finibus erat risus eget nunc. Integer blandit enim odio, eu pharetra urna ultricies et. Proin placerat sed ligula sed egestas. Nulla ultrices purus nibh, ut suscipit sapien tristique quis. Fusce consectetur, nulla porta ullamcorper faucibus, mi eros pulvinar erat, id auctor erat purus ut quam. Maecenas gravida interdum finibus. Quisque libero tortor, sagittis at accumsan eget, porta at purus. Donec rhoncus feugiat dui, eget dictum neque ornare in.
+                <h1 className='text-5xl mt-16'>Peer Prep</h1>
+                <div className='flex justify-center xl:justify-between flex-wrap mt-5 items-center'>
+                    <div className='w-full xl:w-1/2'>
+                        <div className='flex flex-col justify-between'>
+                            <p>
+                                Technical interview is crucial to every software engineer looking for a job. We built Peer Prep so that prior to their technical interview,
+                                programmers can practice typical questions — with a peer! The program offers a real-time code editor, a sizable question pool that distributes
+                                questions at random depending on the difficulty level selected, and a chat function that encourages collaboration between users who are matched.
+                                I co-developed this application with three other team members.
+                            </p>
+                            <p>
+                                <div className='my-5'>
+                                    <span className='text-2xl font-semibold my-6'>Technology used</span>
+                                </div>
+                                <div className='flex flex-wrap justify-between gap-y-2'>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Microservice</span></span>
+                                    <span className='basis-1/5 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>ReactJs</span></span>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Node.js</span></span>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Express.js</span></span>
+                                    <span className='basis-1/4 flex '><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Github CI/CD</span></span>
+                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Axios</span></span>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Docker Compose</span></span>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>AWS</span></span>
+                                </div>
+                            </p>
+                        </div>
 
-                Nunc velit augue, mollis vitae maximus pharetra, tincidunt vel erat. Nullam est nibh, accumsan a interdum non, lacinia sit amet lorem. Quisque pretium, massa nec vulputate posuere, augue augue tempor libero, sed sodales nibh nulla ut risus. Curabitur in purus mi. Ut quis nulla sit amet mi pellentesque tempus quis vitae turpis. Sed eget accumsan enim. Mauris justo tellus, ornare a facilisis quis, suscipit ac metus. In euismod mi ac risus mollis ullamcorper. Curabitur magna erat, consequat nec congue quis, ultricies eget ligula. In eu tristique quam. Integer sed erat justo. Nunc a ultrices nisi. Morbi magna ipsum, lobortis sed elit sed, aliquet blandit elit. Curabitur in suscipit sapien.
+                    </div>
+                    <a href='https://github.com/KengXIII/Peer-Prep' target="_blank" rel="noopener noreferrer">
+                        <img src={PeerPrep} className='brightness-50 hover:brightness-100 hover:scale-110 transition-all duration-300 rounded-md items-end hover:shadow-2xl transition duration-500 w-[512px] mt-8 xl:mt-0 ' alt="project"></img>
+                    </a>
+                </div>
+            </div>
 
-                Nunc quis maximus nulla. Maecenas molestie fermentum nisi, eget scelerisque lorem blandit vitae. Integer tincidunt massa ac leo euismod tincidunt. Nam efficitur ex et sem imperdiet blandit. Morbi non mi eu tortor scelerisque commodo et a tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse aliquam semper purus porttitor fringilla.
 
-                Nunc ac pulvinar libero, eget volutpat mi. Donec id blandit est. Nunc sed velit maximus, viverra justo eget, placerat sem. Praesent posuere id est ac tristique. Quisque tempus ligula vitae euismod suscipit. Donec finibus consectetur purus id mattis. Pellentesque commodo quam lacinia, sodales est sed, varius lectus. Sed non est vitae mi consectetur volutpat. Sed viverra elementum velit in pretium. Pellentesque condimentum enim enim, at mollis risus scelerisque non. Etiam sit amet dictum magna. Aenean mollis nunc nec sapien tincidunt scelerisque.
 
-                Nulla pulvinar posuere velit in sollicitudin. Nullam tempus quam lacus, nec viverra ligula dictum ac. Vivamus semper orci sit amet fringilla laoreet. Sed vitae nulla leo. Nunc mattis elit quis aliquet laoreet. Maecenas lectus lacus, fermentum non tempus sit amet, pellentesque at est. Phasellus mollis sit amet neque nec aliquam. Mauris vel libero suscipit nunc iaculis pulvinar. Nullam quis suscipit ipsum. Ut non metus ligula. In eros felis, bibendum vel tincidunt sit amet, congue nec eros. Ut condimentum cursus blandit. Donec laoreet id arcu a fringilla.
 
+
+
+
+
+            <div>
+                <h1 className='text-5xl mt-32 text-right'>Sarcasm Detection using CNN</h1>
+                <div className='flex justify-center xl:justify-between flex-wrap-reverse mt-5 items-center'>
+                    <a href='https://www.kaggle.com/code/kengxiii/cnn-sarcasm/' target="_blank" rel="noopener noreferrer">
+                        <img src={cnn} className='brightness-50 hover:brightness-100 hover:scale-110 transition-all duration-300 rounded-md items-end hover:shadow-2xl transition duration-500 w-[512px] mt-8 xl:mt-0' alt="project"></img>
+                    </a>
+                    <div className='w-full xl:w-1/2 text-left xl:text-right'>
+                        <div className='flex flex-col justify-between'>
+                            <p>
+                                Sarcasm means the use of irony to mock someone or something. This idea cannot be picked up by simple sentimental analysis model,
+                                therefore requires careful detection. I explored the use of a deep learning CNN model to predict the likelyhood of an English sentence being sarcastic.
+                                Using 1 million comments scraped from Reddit, I managed to trained a model that could perform with an accuracy of 70% on unseen instances.
+                            </p>
+                            <p>
+                                <div className='my-5'>
+                                    <span className='text-2xl font-semibold'>Technology used</span>
+                                </div>
+                                <div className='flex xl:flex-row-reverse flex-wrap justify-between gap-y-2 '>
+                                    <span className='basis-1/7 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Python</span></span>
+                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>TensorFlow</span></span>
+                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div>
+                <h1 className='text-5xl mt-32'>HelpMeMahjong</h1>
+                <div className='flex justify-center xl:justify-between flex-wrap mt-5 items-start items-center'>
+                    <div className='w-full xl:w-1/2'>
+                        <div className='flex flex-col justify-between'>
+                            <p>
+                                My team's Hack&Roll2022 hackathon entry, designed to help new Mahjong players get started.
+                                HelpMeMahjong is a chatbot on Telegram that recommends the best next move based on the possible combinations based that the user could create.
+                                When users are listening to the last tile, the chatbot will alert them to the type to be on the lookout for.
+                                This chatbot is created within 24-hours.
+                            </p>
+                            <p >
+                                <div className='my-5'>
+                                    <span className='text-2xl font-semibold'>Technology used</span>
+                                </div>
+                                <div className='flex flex-wrap justify-between gap-y-2'>
+                                    <span className='basis-1/7 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Python</span></span>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>pyTelegramBotAPI</span></span>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Heroku</span></span>
+                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <a href='https://devpost.com/software/helpmemahjong' target="_blank" rel="noopener noreferrer">
+                        <img src={helpmemahjong} className='brightness-50 hover:brightness-100 hover:scale-110 transition-all duration-300 rounded-md items-end hover:shadow-2xl transition duration-500 w-[512px] mt-8 xl:mt-0' alt="project"></img>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div>
+                <h1 className='text-5xl mt-32 text-right'>Sarcasm Detection using CNN</h1>
+                <div className='flex justify-center xl:justify-between flex-wrap-reverse mt-5 items-center'>
+                    <a href='https://www.kaggle.com/code/kengxiii/cnn-sarcasm/' target="_blank" rel="noopener noreferrer">
+                        <img src={cnn} className='brightness-50 hover:brightness-100 hover:scale-110 transition-all duration-300 rounded-md items-end hover:shadow-2xl transition duration-500 w-[512px] mt-8 xl:mt-0' alt="project"></img>
+                    </a>
+                    <div className='w-full xl:w-1/2 text-left xl:text-right'>
+                        <div className='flex flex-col justify-between'>
+                            <p>
+                                Sarcasm means the use of irony to mock someone or something. This idea cannot be picked up by simple sentimental analysis model,
+                                therefore requires careful detection. I explored the use of a deep learning CNN model to predict the likelyhood of an English sentence being sarcastic.
+                                Using 1 million comments scraped from Reddit, I managed to trained a model that could perform with an accuracy of 70% on unseen instances.
+                            </p>
+                            <p>
+                                <div className='my-5'>
+                                    <span className='text-2xl font-semibold'>Technology used</span>
+                                </div>
+                                <div className='flex xl:flex-row-reverse flex-wrap justify-between gap-y-2 '>
+                                    <span className='basis-1/7 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Python</span></span>
+                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>TensorFlow</span></span>
+                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     )
