@@ -7,7 +7,7 @@ function Home() {
                 <div className='w-full sm:w-3/5'>
                     <p className="text-[#ea8e55] text-2xl w-max">Hi there,</p>
                     <h1 className='text-5xl sm:text-7xl font-bold my-5 w-max'>I am Keng I</h1>
-                    A Penultimate Computer Science student at NUS, with a passion
+                    A Penultimate-Year Computer Science student at NUS, with a passion
                     in <span className='underline decoration-2 decoration-pink-500/70'>Software
                         Engineering</span>, <span className='underline decoration-2 decoration-green-500/70'>Computer
                             Security</span> and <span className='underline decoration-2 decoration-sky-500/70'>Artificial Intelligence</span>.
