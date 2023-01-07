@@ -99,9 +99,9 @@ function Projects() {
                         <div className='flex flex-col justify-between'>
                             <p>
                                 My team's Hack&Roll2022 hackathon entry, designed to help new Mahjong players get started.
-                                HelpMeMahjong is a chatbot on Telegram that recommends the best next move based on the possible combinations based that the user could create.
+                                HelpMeMahjong is a chatbot on Telegram that recommends the best next move based on the possible combinations that the user could create.
                                 When users are listening to the last tile, the chatbot will alert them to the type to be on the lookout for.
-                                This chatbot is created within 24-hours.
+                                This chatbot was created within 24-hours.
                             </p>
                             <p >
                                 <div className='my-5'>
