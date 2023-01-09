@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="container bg-[#2D3E50] min-w-full min-h-screen p-5 overflow-auto">
       <nav>
-        <div className='max-w-7xl mx-auto py-5'>
+        <div className='max-w-7xl mx-auto py-5 items-end'>
           <div className='flex justify-center flex-wrap'>
-            <a href='' className='flex drop-shadow-xl items-end sm:mr-auto hover:drop-shadow-xl'>
+            <a href='' className='flex drop-shadow-xl items-center sm:mr-auto hover:drop-shadow-xl'>
               <img src={logo} style={{ width: "48px" }} alt="logo"></img>
               <span className='mx-3 text-2xl'><span className='text-[#ea8e55]'>Liao</span> Keng I</span>
             </a>

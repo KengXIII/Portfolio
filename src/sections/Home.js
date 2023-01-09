@@ -4,7 +4,7 @@ function Home() {
     return (
         <div>
             <div className='flex flex-wrap items-center'>
-                <div className='w-full sm:w-3/5'>
+                <div className='w-full xl:w-3/5'>
                     <p className="text-[#ea8e55] text-2xl w-max">Hi there,</p>
                     <h1 className='text-5xl sm:text-7xl font-bold my-5 w-max'>I am Keng I</h1>
                     A Penultimate-Year Computer Science student at NUS, with a passion
