@@ -28,7 +28,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <body className='h-[75vh]'>
+      <main className='h-[75vh]'>
         <div className='max-w-7xl mx-auto py-5 h-full'>
           <div className='flex h-full grow'>
             <div className='w-max'>
@@ -50,15 +50,15 @@ function App() {
               <About />
               <div id='projects' className='pt-[8vh] mt-[20vh]'></div>
               <Projects />
-              <div id='contact' className='pt-[10vh] mt-[50vh]'></div>
+              <div id='contact' className='pt-[16vh] mt-[36vh] '></div>
               <Contact />
+              <div className="mb-[20vh]"></div>
             </div>
           </div>
         </div>
-
-      </body>
-      <nav >
-        <div className='mx-4 border-t-2 text-xs pt-5 text-center'>
+      </main>
+      <nav className='max-w-7xl mx-auto'>
+        <div className='border-t-2 text-xs pt-5 text-center'>
           Designed and developed by Keng I
           <div className='flex justify-center mt-2 text-gray-400 items-center'>
             <div>React </div>

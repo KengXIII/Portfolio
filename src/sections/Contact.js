@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <div className="mb-[25vh]">
+        <div>
             <h1 className='text-6xl font-bold text-center'>Get In Touch</h1>
             <div className="flex flex-col text-center w-full mt-4 mx-auto">
                 If you would like to get in touch, or want to know more, be sure to drop me an email!
