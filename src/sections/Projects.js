@@ -25,15 +25,15 @@ function Projects() {
                                 <div className='my-5'>
                                     <span className='text-2xl font-semibold my-6'>Technology used</span>
                                 </div>
-                                <div className='flex flex-wrap justify-between gap-y-2'>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Microservice</span></span>
-                                    <span className='basis-1/5 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>ReactJs</span></span>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Node.js</span></span>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Express.js</span></span>
-                                    <span className='basis-1/4 flex '><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Github CI/CD</span></span>
-                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Axios</span></span>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Docker Compose</span></span>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>AWS</span></span>
+                                <div className='flex flex-wrap gap-y-2 gap-x-4'>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Microservice</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>ReactJs</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Node.js</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Express.js</span></span>
+                                    <span className='flex '><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Github CI/CD</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Axios</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Docker Compose</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>AWS</span></span>
                                 </div>
                             </p>
                         </div>
@@ -45,15 +45,8 @@ function Projects() {
                 </div>
             </div>
 
-
-
-
-
-
-
-
             <div>
-                <h1 className='text-4xl sm:text-5xl mt-32 text-right'>Sarcasm Detection using CNN</h1>
+                <h1 className='text-4xl sm:text-5xl mt-32 xl:text-right'>Sarcasm Detection using CNN</h1>
                 <div className='flex justify-center xl:justify-between flex-wrap-reverse mt-5 items-center'>
                     <a href='https://www.kaggle.com/code/kengxiii/cnn-sarcasm/' target="_blank" rel="noopener noreferrer">
                         <img src={cnn} className='brightness-50 hover:brightness-100 hover:scale-110 transition-all duration-300 rounded-md items-end hover:shadow-2xl transition duration-500 w-[512px] mt-8 xl:mt-0' alt="project"></img>
@@ -69,11 +62,11 @@ function Projects() {
                                 <div className='my-5'>
                                     <span className='text-2xl font-semibold'>Technology used</span>
                                 </div>
-                                <div className='flex xl:flex-row-reverse flex-wrap justify-between gap-y-2 '>
-                                    <span className='basis-1/7 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Python</span></span>
-                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>TensorFlow</span></span>
-                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
-                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                <div className='flex xl:flex-row-reverse flex-wrap gap-y-2 gap-x-4'>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Python</span></span>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>TensorFlow</span></span>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
 
                                 </div>
                             </p>
@@ -82,15 +75,6 @@ function Projects() {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
 
             <div>
                 <h1 className='text-4xl sm:text-5xl mt-32'>HelpMeMahjong</h1>
@@ -107,11 +91,11 @@ function Projects() {
                                 <div className='my-5'>
                                     <span className='text-2xl font-semibold'>Technology used</span>
                                 </div>
-                                <div className='flex flex-wrap justify-between gap-y-2'>
-                                    <span className='basis-1/7 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Python</span></span>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>pyTelegramBotAPI</span></span>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Heroku</span></span>
-                                    <span className='basis-1/4 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                <div className='flex flex-wrap gap-y-2 gap-x-4'>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200 '>Python</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>pyTelegramBotAPI</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Heroku</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
                                 </div>
                             </p>
                         </div>
@@ -123,14 +107,8 @@ function Projects() {
                 </div>
             </div>
 
-
-
-
-
-
-
             <div>
-                <h1 className='text-4xl sm:text-5xl mt-32 text-right'>TrackO</h1>
+                <h1 className='text-4xl sm:text-5xl mt-32 xl:text-right'>TrackO</h1>
                 <div className='flex justify-center xl:justify-between flex-wrap-reverse mt-5 items-center'>
                     <a href='https://ay2122s1-cs2103t-f12-3.github.io/tp/' target="_blank" rel="noopener noreferrer">
                         <img src={tracko} className='brightness-50 hover:brightness-100 hover:scale-110 transition-all duration-300 rounded-md items-end hover:shadow-2xl transition duration-500 w-[512px] mt-8 xl:mt-0' alt="project"></img>
@@ -147,11 +125,11 @@ function Projects() {
                                 <div className='my-5'>
                                     <span className='text-2xl font-semibold'>Technology used</span>
                                 </div>
-                                <div className='flex xl:flex-row-reverse flex-wrap justify-between gap-y-2 '>
-                                    <span className='basis-1/7 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Java</span></span>
-                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>JavaFX</span></span>
-                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
-                                    <span className='basis-1/4 flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                <div className='flex xl:flex-row-reverse flex-wrap gap-y-2 gap-x-4'>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Java</span></span>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>JavaFX</span></span>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
+                                    <span className='flex xl:flex-row-reverse'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200' hidden></span></span>
 
                                 </div>
                             </p>
@@ -160,12 +138,6 @@ function Projects() {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
 
             <div>
                 <h1 className='text-5xl mt-32'>TaskGo</h1>
@@ -182,13 +154,13 @@ function Projects() {
                                 <div className='my-5'>
                                     <span className='text-2xl font-semibold'>Technology used</span>
                                 </div>
-                                <div className='flex flex-wrap justify-between gap-y-2'>
-                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>ReactJs</span></span>
-                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Firebase</span></span>
-                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Node.js</span></span>
-                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Vercel</span></span>
-                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Heroku</span></span>
-                                    <span className='basis-1/6 flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Express.js</span></span>
+                                <div className='flex flex-wrap gap-y-2 gap-x-4'>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>ReactJs</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Firebase</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Node.js</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Vercel</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Heroku</span></span>
+                                    <span className='flex'><span className='w-max px-3 bg-gray-500 rounded-full text-gray-200'>Express.js</span></span>
                                 </div>
                             </p>
                         </div>

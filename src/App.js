@@ -18,7 +18,7 @@ function App() {
               <img src={logo} style={{ width: "48px" }} alt="logo"></img>
               <span className='mx-3 text-2xl'><span className='text-[#ea8e55]'>Liao</span> Keng I</span>
             </a>
-            <div className="flex justify-around items-end align-self-end text-[#E8EDF0] text-sm sm:text-lg">
+            <div className="flex justify-around items-center align-self-end text-[#E8EDF0] text-sm sm:text-lg">
               <a href='#home' className='mx-2 sm:mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>H</span>ome</a>
               <a href='#about' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>A</span>bout</a>
               <a href='#projects' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>P</span>rojects</a>
