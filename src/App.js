@@ -8,7 +8,11 @@ import Projects from './sections/Projects.js'
 import Contact from './sections/Contact.js'
 import Experience from './sections/Experience.js'
 import { useEffect, useRef, useState } from 'react';
-import { click } from '@testing-library/user-event/dist/click';
+import ReactGA from "react-ga4";
+import { sendEvent } from './tracker';
+
+ReactGA.initialize("G-B5H6TX1565");
+ReactGA.send(window.location.pathname);
 
 function App() {
   const [menu, setMenu] = useState(false)
@@ -17,7 +21,6 @@ function App() {
   useEffect(() => {
     const closeMenu = e => {
       if (e.path[0] !== btnRef.current) {
-        console.log(e.path[0], btnRef.current)
         setMenu(false)
       }
     }
@@ -55,7 +58,7 @@ function App() {
               <a hidden href='#experience' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>E</span>xperience</a>
               <a href='#projects' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>P</span>rojects</a>
               <a href='#contact' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>C</span>ontact</a>
-              <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='mx-3 px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl '><span className='text-base sm:text-2xl'>R</span>esume</a>
+              <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='mx-3 px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume')}><span className='text-base sm:text-2xl'>R</span>esume</a>
             </div>
             {menu ?
               <div id='menu' className='flex flex-col justify-center items-center absolute top-20 right-0 w-2/5 md:w-1/5 p-4 z-1 bg-slate-500 gap-y-1 shadow-md z-10 bg-opacity-80 rounded-md tracking-wider'>
@@ -64,7 +67,7 @@ function App() {
                 <a hidden href='#experience' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>E</span>xperience</a>
                 <a href='#projects' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>P</span>rojects</a>
                 <a href='#contact' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>C</span>ontact</a>
-                <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl '><span className='text-base sm:text-2xl'>R</span>esume</a>
+                <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume Mobile')}><span className='text-base sm:text-2xl'>R</span>esume</a>
               </div>
               : null}
           </div>
@@ -75,10 +78,10 @@ function App() {
           <div className='flex h-full grow'>
             <div className='w-[32px]'>
               <div className='flex h-full flex-col justify-end'>
-                <a href='https://github.com/KengXIII' target="_blank" rel="noopener noreferrer" className='my-3'>
+                <a href='https://github.com/KengXIII' onClick={() => sendEvent('GitHub')} target="_blank" rel="noopener noreferrer" className='my-3'>
                   <img src={github} className="w-[24px] sm:w-[32px] transition hover:-translate-y-1 hover:scale-110 hover:brightness-125 duration-300" alt="logo"></img>
                 </a>
-                <a href='https://www.linkedin.com/in/liao-keng-i/' target="_blank" rel="noopener noreferrer" className='my-3'>
+                <a href='https://www.linkedin.com/in/liao-keng-i/' onClick={() => sendEvent('LinkedIn')} target="_blank" rel="noopener noreferrer" className='my-3'>
                   <img src={linkedin} className="w-[24px] sm:w-[32px] transition hover:-translate-y-1 hover:scale-110 hover:brightness-125 duration-300" alt="logo"></img>
                 </a>
                 <img className='my-3 w-[24px] sm:w-[32px]' src={line} alt="logo"></img>
