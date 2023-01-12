@@ -8,11 +8,7 @@ import Projects from './sections/Projects.js'
 import Contact from './sections/Contact.js'
 import Experience from './sections/Experience.js'
 import { useEffect, useRef, useState } from 'react';
-import ReactGA from "react-ga4";
 import { sendEvent } from './tracker';
-
-ReactGA.initialize("G-B5H6TX1565");
-ReactGA.send(window.location.pathname);
 
 function App() {
   const [menu, setMenu] = useState(false)
