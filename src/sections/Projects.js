@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div>
             <div className='flex'>
-                <h1 className='text-6xl font-bold text-center w-10/15 mr-5'>My Projects</h1>
+                <h1 className='text-6xl font-bold text-center w-10/15'>My Projects</h1>
             </div>
             <div>
                 <h1 className='text-4xl sm:text-5xl mt-16'>Peer Prep</h1>

@@ -1,7 +1,7 @@
 function About() {
     return (
         <div>
-            <h1 className='text-6xl font-bold text-center w-10/15 mr-5'>About</h1>
+            <h1 className='text-6xl font-bold text-center w-10/15'>About</h1>
             <div>
                 <div className="mt-5">
                     My name is Keng I (yes, with an I •ᴗ•) My first foray into programming started off with a simple goal: to automate interactions using LUA scripting.
