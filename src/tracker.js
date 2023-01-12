@@ -1,10 +1,14 @@
-import ReactGA from "react-ga4";
+import ReactGA from "react-ga";
 
-const trackingID = "G-B5H6TX1565"
+const trackingID = "UA-253981233-1"
 
 export const initGA = () => {
     ReactGA.initialize(trackingID, { debug: true });
 };
+
+export const logVisit = () => {
+    ReactGA.pageview(window.location.pathname)
+}
 
 export const sendEvent = (button) => {
     console.log('Logging...', { action: 'redirect', category: button, label: new Date() })
