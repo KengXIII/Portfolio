@@ -11,6 +11,5 @@ export const logVisit = () => {
 }
 
 export const sendEvent = (button) => {
-    console.log('Logging...', { action: 'redirect', category: button, label: new Date() })
     ReactGA.event({ action: 'redirect', category: button, label: new Date() });
 };
