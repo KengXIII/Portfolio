@@ -98,8 +98,6 @@ function App() {
               <Contact />
               <div className="mb-[24vh]"></div>
             </div>
-            <div className='w-[32px]'>
-            </div>
           </div>
         </div>
       </main>
