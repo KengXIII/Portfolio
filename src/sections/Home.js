@@ -3,7 +3,7 @@ import avatar from '../image/avatar.jpg'
 function Home() {
     return (
         <div>
-            <div className='flex flex-wrap items-center'>
+            <div id='home' className='flex flex-wrap items-center'>
                 <div className='w-full xl:w-3/5'>
                     <p className="text-[#ea8e55] text-2xl w-max">Hi there,</p>
                     <h1 className='text-5xl sm:text-7xl font-bold my-5 w-max'>I am Keng I</h1>

@@ -87,15 +87,15 @@ function App() {
             <div className='w-full p-6 overflow-auto scroll-smooth'>
               <div id='home' className='lg:pt-[15vh]'></div>
               <Home />
-              <div id='about' className='pt-[8vh] mt-[20vh]'></div>
+              <div id='about' className='scroll-mt-[8vh] mt-[24vh]'></div>
               <About />
               <div id='experience' className='mt-[20vh]'></div>
               <Experience />
-              <div id='projects' className='pt-[8vh] mt-[20vh]'></div>
+              <div id='projects' className='scroll-mt-[8vh] mt-[20vh]'></div>
               <Projects />
-              <div id='contact' className='pt-[16vh] mt-[36vh] '></div>
+              <div id='contact' className='scroll-mt-[16vh] mt-[30vh] '></div>
               <Contact />
-              <div className="mb-[24vh]"></div>
+              <div className="mb-[20vh]"></div>
             </div>
           </div>
         </div>
