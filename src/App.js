@@ -51,7 +51,7 @@ function App() {
             <div className="hidden lg:flex justify-around items-center align-self-end text-[#E8EDF0] text-xs sm:text-lg">
               <a href='#home' className='mx-2 sm:mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>H</span>ome</a>
               <a href='#about' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>A</span>bout</a>
-              <a hidden href='#experience' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>E</span>xperience</a>
+              <a href='#experience' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>E</span>xperience</a>
               <a href='#projects' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>P</span>rojects</a>
               <a href='#contact' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>C</span>ontact</a>
               <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='mx-3 px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume')}><span className='text-base sm:text-2xl'>R</span>esume</a>
@@ -60,7 +60,7 @@ function App() {
               <div id='menu' className='flex flex-col justify-center items-center absolute top-20 right-0 w-2/5 md:w-1/5 p-4 z-1 bg-slate-500 gap-y-1 shadow-md z-10 bg-opacity-80 rounded-md tracking-wider'>
                 <a href='#home' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>H</span>ome</a>
                 <a href='#about' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>A</span>bout</a>
-                <a hidden href='#experience' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>E</span>xperience</a>
+                <a href='#experience' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>E</span>xperience</a>
                 <a href='#projects' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>P</span>rojects</a>
                 <a href='#contact' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>C</span>ontact</a>
                 <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume Mobile')}><span className='text-base sm:text-2xl'>R</span>esume</a>
@@ -89,8 +89,8 @@ function App() {
               <Home />
               <div id='about' className='pt-[8vh] mt-[20vh]'></div>
               <About />
-              <div hidden id='experience' className='pt-[8vh] mt-[20vh]'></div>
-              {/* <Experience /> */}
+              <div id='experience' className='mt-[20vh]'></div>
+              <Experience />
               <div id='projects' className='pt-[8vh] mt-[20vh]'></div>
               <Projects />
               <div id='contact' className='pt-[16vh] mt-[36vh] '></div>
