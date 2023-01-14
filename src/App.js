@@ -37,7 +37,7 @@ function App() {
           <div className='flex justify-between sm:justify-center flex-wrap gap-y-4 lg:gap-y-0'>
             <a href='' className='relative flex items-center sm:mr-auto group'>
               <div className='absolute inset-0 bg-[#D2601A] rounded-md blur-sm group-hover:blur-md transition duration-500'></div>
-              <div className='relative flex items-center relative bg-[#273646] rounded-md overflow-hidden'>
+              <div className='relative flex items-center bg-[#273646] rounded-md overflow-hidden'>
                 <img src={logo} style={{ width: "48px" }} alt="logo"></img>
                 <span className='mx-3 text-2xl'><span className='text-[#ea8e55]'>Liao</span> Keng I</span>
               </div>
@@ -49,11 +49,11 @@ function App() {
               <div ref={btnRef} className='absolute inset-0 opacity-0 z-1'></div>
             </div>
             <div className="hidden lg:flex justify-around items-center align-self-end text-[#E8EDF0] text-xs sm:text-lg">
-              <a href='#home' className='mx-2 sm:mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>H</span>ome</a>
-              <a href='#about' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>A</span>bout</a>
-              <a href='#experience' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>E</span>xperience</a>
-              <a href='#projects' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>P</span>rojects</a>
-              <a href='#contact' className='mx-2 mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>C</span>ontact</a>
+              <a href='#home' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>H</span>ome</a>
+              <a href='#about' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>A</span>bout</a>
+              <a href='#experience' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>E</span>xperience</a>
+              <a href='#projects' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>P</span>rojects</a>
+              <a href='#contact' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>C</span>ontact</a>
               <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='mx-3 px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume')}><span className='text-base sm:text-2xl'>R</span>esume</a>
             </div>
             {menu ?

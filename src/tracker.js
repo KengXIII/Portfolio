@@ -3,7 +3,7 @@ import ReactGA from "react-ga";
 const trackingID = "UA-253981233-1"
 
 export const initGA = () => {
-    ReactGA.initialize(trackingID, { debug: true });
+    ReactGA.initialize(trackingID);
 };
 
 export const logVisit = () => {
