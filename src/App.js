@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="flex flex-col container bg-[#2D3E50] min-w-full h-screen p-5 overflow-auto">
-      <nav className='h-[8%]'>
+      <nav className='h-[8%] min-h-[48px]'>
         <div className='max-w-7xl mx-auto py-2 items-end'>
           <div className='flex justify-between sm:justify-center flex-wrap gap-y-4 lg:gap-y-0'>
             <a href='' className='relative flex items-center sm:mr-auto group'>
@@ -70,7 +70,7 @@ function App() {
         </div>
       </nav>
       <main className='h-[85%]'>
-        <div className='max-w-7xl mx-auto py-8 h-full'>
+        <div className='max-w-7xl mx-auto py-4 h-full'>
           <div className='flex h-full grow'>
             <div className='w-[32px]'>
               <div className='flex h-full flex-col justify-end'>
