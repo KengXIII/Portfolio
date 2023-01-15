@@ -12,7 +12,7 @@ const data = [
         img: lta,
         category: 'Award',
         title: 'LTA Engineering Challenge 2016',
-        description: 'Merit Award — Singapore International Transport Congress and Exhibition (SITCE) 2016',
+        description: 'Merit Award — Singapore International Transport Congress and Exhibition (SITCE)',
         date: "Oct'16"
     },
     {
@@ -26,7 +26,7 @@ const data = [
         img: hack,
         category: 'Hackathon',
         title: 'Hack&Roll 2022',
-        description: 'Built a telegram bot within 24 hours',
+        description: 'Built a telegram bot to give Mahjong Beginners advice within 24 hours',
         date: "Jan'22"
     },
     {
