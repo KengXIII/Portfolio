@@ -54,7 +54,7 @@ function App() {
               <a href='#experience' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>E</span>xperience</a>
               <a href='#projects' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>P</span>rojects</a>
               <a href='#contact' className='mx-3 hover:text-[#D2601A] transition duration-300'><span className='text-base sm:text-2xl'>C</span>ontact</a>
-              <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='mx-3 px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume')}><span className='text-base sm:text-2xl'>R</span>esume</a>
+              <a href='https://drive.google.com/file/d/1gQfEb8izgkxJkZrSIdJwqdL9gvuGUAfd/view?usp=share_link' target="_blank" rel="noopener noreferrer" className='mx-3 px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume')}><span className='text-base sm:text-2xl'>R</span>esume</a>
             </div>
             {menu ?
               <div id='menu' className='flex flex-col justify-center items-center absolute top-20 right-0 w-2/5 md:w-1/5 p-4 z-20 bg-slate-500 gap-y-1 shadow-md bg-opacity-80 rounded-md tracking-wider'>
@@ -63,7 +63,7 @@ function App() {
                 <a href='#experience' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>E</span>xperience</a>
                 <a href='#projects' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>P</span>rojects</a>
                 <a href='#contact' className='w-full border-b border-slate-500 text-center'><span className='text-base sm:text-2xl'>C</span>ontact</a>
-                <a href='https://drive.google.com/file/d/1lCsdamjrRpsxbIPOMWaMqt0aAnDPedql/view' target="_blank" rel="noopener noreferrer" className='px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume Mobile')}><span className='text-base sm:text-2xl'>R</span>esume</a>
+                <a href='https://drive.google.com/file/d/1gQfEb8izgkxJkZrSIdJwqdL9gvuGUAfd/view?usp=share_link' target="_blank" rel="noopener noreferrer" className='px-3 py-0.5 rounded-md bg-gradient-to-br from-pink-700 to-orange-500 hover:bg-gradient-to-bl hover:drop-shadow-3xl' onClick={() => sendEvent('Resume Mobile')}><span className='text-base sm:text-2xl'>R</span>esume</a>
               </div>
               : null}
           </div>
