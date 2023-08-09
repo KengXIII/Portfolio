@@ -80,9 +80,9 @@ function Experience() {
                         {data.map((event, idx) => (
                             <div className="relative flex flex-col sm:items-end shrink-0 w-[60vw] sm:w-96 h-full snap-center mx-16">
                                 <div className="flex w-full h-5/6 justify-center border-red-200 items-end">
-                                    <img src={fixed} className="hidden sm:flex w-32 h-32" alt='arrow'></img>
+                                    <img src={fixed} className="hidden select-none sm:flex w-32 h-32" alt='arrow'></img>
                                     <div className="relative flex flex-col h-5/6 max-h-96 mt-auto mb-8 w-[85%] sm:w-3/4 rounded-xl overflow-clip text-slate-600 text-xs shadow-[-5px_5px_rgb(253,126,20,0.3),-10px_10px_rgba(253,126,20,0.2),-15px_15px_rgba(253,126,20,0.1),-20px_20px_rgba(253,126,20,0.05),7.5px_0px_5px_0px_rgba(0,0,0,0.3)]">
-                                        <img className='w-full h-3/5 opacity-60' src={event.img} alt="logo"></img>
+                                        <img className='w-full h-3/5 opacity-60 select-none' src={event.img} alt="logo"></img>
                                         <div className='flex flex-col justify-center h-2/5 bg-gray-300 px-4'>
                                             <span className=''>{event.category}</span>
                                             <span className='sm:text-sm text-slate-800 font-bold py-1'>{event.title}</span>
@@ -101,8 +101,8 @@ function Experience() {
                     </svg>
                 </div>
                 <div className='flex sm:hidden flex-row items-center w-full justify-between sm:px-24 py-4 text-center'>
-                    <div className='flex flex-wrap justify-center w-full text-l text-slate-200'>
-                        Swipe left for more
+                    <div className='flex flex-wrap justify-center w-full text-l text-slate-200 items-center'>
+                        <span className='pt-1'>Swipe left for more </span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 ml-2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
                         </svg>
