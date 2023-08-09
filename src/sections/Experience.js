@@ -1,6 +1,7 @@
 import lta from '../image/lta-fixed.jpg'
 import sapura from '../image/sapura.jpg'
 import shopee from '../image/shopee.jpg'
+import pwc from '../image/pwc.jpg'
 import runnus from '../image/runnus.jpg'
 import arrow from '../image/arrow-removed.png'
 import hack from '../image/hack.jpg'
@@ -8,6 +9,13 @@ import fixed from '../image/fixed.jpg'
 import { useRef } from 'react'
 
 const data = [
+    {
+        img: pwc,
+        category: 'Internship',
+        title: "PwC South East Asia Consulting",
+        description: 'Cyber & Forensics Risk Consultant,\nIdentity and Access Management (IAM)',
+        date: "May'23"
+    },
     {
         img: runnus,
         category: 'Project',
@@ -68,7 +76,7 @@ function Experience() {
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                     </svg>
                     <div ref={scrollref} className='w-full sm:w-5/6 relative flex flex-row h-full sm:h-full overflow-x-scroll scroll-smooth snap-x snap-mandatory sm:snap-proximity bg-[#2c3d4f] sm:m-8 shadow-[3px_3px_6px_0px_inset_rgb(27,37,47),-3px_-3px_6px_1px_inset_rgba(27,37,47,0.3)] rounded-lg select-text'>
-                        <div className="absolute bg-local border-b-2 w-[3000px] h-5/6"></div>
+                        <div className="absolute bg-local border-b-2 w-[2400px] sm:w-[3600px] h-5/6"></div>
                         {data.map((event, idx) => (
                             <div className="relative flex flex-col sm:items-end shrink-0 w-[60vw] sm:w-96 h-full snap-center mx-16">
                                 <div className="flex w-full h-5/6 justify-center border-red-200 items-end">
@@ -78,7 +86,7 @@ function Experience() {
                                         <div className='flex flex-col justify-center h-2/5 bg-gray-300 px-4'>
                                             <span className=''>{event.category}</span>
                                             <span className='sm:text-sm text-slate-800 font-bold py-1'>{event.title}</span>
-                                            <span> {event.description}</span>
+                                            <span className='whitespace-pre-line'> {event.description}</span>
                                         </div>
                                     </div>
                                 </div>
