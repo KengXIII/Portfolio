@@ -76,7 +76,7 @@ function Experience() {
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                     </svg>
                     <div ref={scrollref} className='w-full sm:w-5/6 relative flex flex-row h-full sm:h-full overflow-x-scroll scroll-smooth snap-x snap-mandatory sm:snap-proximity bg-[#2c3d4f] sm:m-8 shadow-[3px_3px_6px_0px_inset_rgb(27,37,47),-3px_-3px_6px_1px_inset_rgba(27,37,47,0.3)] rounded-lg select-text'>
-                        <div className="absolute bg-local border-b-2 w-[2400px] sm:w-[3600px] h-5/6"></div>
+                        <div className="absolute bg-local border-b-2 w-[2500px] sm:w-[3600px] h-5/6"></div>
                         {data.map((event, idx) => (
                             <div className="relative flex flex-col sm:items-end shrink-0 w-[60vw] sm:w-96 h-full snap-center mx-16">
                                 <div className="flex w-full h-5/6 justify-center border-red-200 items-end">
