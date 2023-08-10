@@ -89,7 +89,7 @@ function App() {
               </div>
             </div>
             <div className='w-full p-6 overflow-auto scroll-smooth'>
-              <div id='home' className='lg:pt-[18vh]'></div>
+              <div id='home' className='lg:pt-[20vh]'></div>
               <Home />
               <div id='about' className='scroll-mt-[8vh] mt-[24vh]'></div>
               <About />
@@ -97,7 +97,7 @@ function App() {
               <Experience />
               <div id='projects' className='scroll-mt-[8vh] mt-[20vh]'></div>
               <Projects />
-              <div id='contact' className='scroll-mt-[16vh] mt-[30vh] '></div>
+              <div id='contact' className='scroll-mt-[16vh] mt-[35vh] '></div>
               <Contact />
               <div className="mb-[20vh]"></div>
             </div>
