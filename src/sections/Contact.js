@@ -4,7 +4,7 @@ function Contact() {
             <h1 className='text-6xl font-bold text-center'>Get In Touch</h1>
             <div className="flex flex-col text-center w-full mt-4 mx-auto">
                 If you would like to get in touch, or want to know more, be sure to drop me an email!
-                <span>Looking for a full time job from June 2024</span>
+                <span>Looking for full time opportunities from June 2024</span>
                 <button className="flex shrink mt-5 mx-auto p-3 rounded-full min-w-1/2 justify-center bg-gradient-to-br from-pink-500 to-orange-500 hover:bg-gradient-to-bl">
                     <a href='mailto:liaokengi@gmail.com' className="flex items-center text-center w=full">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-3">
