@@ -4,14 +4,14 @@ function About() {
             <h1 className='text-6xl font-bold text-center w-10/15'>About</h1>
             <div>
                 <div className="mt-5">
-                    My name is Keng I (yes, with an I •ᴗ•) My first foray into programming started off with a simple goal: to automate interactions using LUA scripting.
-                    Through self-learning, coding became an interest that I developed over time.
+                    My name is Keng I (pronounced as Keng Yi •ᴗ•) My first foray into programming started off with a simple goal: to automate interactions using LUA scripting.
+                    This ignited my lasting passion for coding and problem solving.
                 </div>
                 <div className="mt-5">
                     My undergraduate coursework focused on development, security and artificial intelligence.
-                    In addition to developing full-stack applications, I act as both Wreck-It Ralph and Fix-It Felix by looking for any security flaws that users could easily exploit.
-                    I enjoy challenges too, so in recent semesters I've been exploring deep learning and artificial intelligence
-                    in the hopes of one day being able to solve problems in the real world effectively.
+                    Beyond coding, I find great satisfaction in tackling cybersecurity challenges as we navigate the transformative landscape of the digital age.
+                    My appetite for challenges led me to delve into deep learning and AI in my later years of university, with the aspiration of utilising them as tools 
+                    for effective problem-solving.
                 </div>
                 <div className="mt-5">
                     Outside of work and study, I am probably listening to music and watching anime shows!
