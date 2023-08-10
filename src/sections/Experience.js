@@ -3,9 +3,8 @@ import sapura from '../image/sapura.jpg'
 import shopee from '../image/shopee.jpg'
 import pwc from '../image/pwc.jpg'
 import runnus from '../image/runnus.jpg'
-import arrow from '../image/arrow-removed.png'
 import hack from '../image/hack.jpg'
-import fixed from '../image/fixed.jpg'
+import arrow from '../image/fixed.jpg'
 import { useRef } from 'react'
 
 const data = [
@@ -20,7 +19,7 @@ const data = [
         img: runnus,
         category: 'Project',
         title: "NUS Student's Sports Club",
-        description: 'Design and update RunNUS 2022 website regularly during each phase of event',
+        description: 'Design and update RunNUS 2022 website regularly at each phase of event',
         date: "Jun'22"
     },
     {
@@ -34,14 +33,14 @@ const data = [
         img: hack,
         category: 'Hackathon',
         title: 'Hack&Roll 2022',
-        description: 'Built a telegram bot to give Mahjong Beginners advice within 24 hours',
+        description: 'Built a telegram bot within 24 hours, to give Mahjong Beginners advice',
         date: "Jan'22"
     },
     {
         img: sapura,
         category: 'Internship',
         title: 'Sapura Synergy Singapore',
-        description: 'Student Internship on Education through E-Books and Technology',
+        description: 'Student Internship on building E-Books and utilising technology for education',
         date: "Dec'16"
     },
     {
@@ -80,7 +79,7 @@ function Experience() {
                         {data.map((event, idx) => (
                             <div className="relative flex flex-col sm:items-end shrink-0 w-[60vw] sm:w-96 h-full snap-center mx-16">
                                 <div className="flex w-full h-5/6 justify-center border-red-200 items-end">
-                                    <img src={fixed} className="hidden select-none sm:flex w-32 h-32" alt='arrow'></img>
+                                    <img src={arrow} className="hidden select-none sm:flex w-32 h-32" alt='arrow'></img>
                                     <div className="relative flex flex-col h-5/6 max-h-96 mt-auto mb-8 w-[85%] sm:w-3/4 rounded-xl overflow-clip text-slate-600 text-xs shadow-[-5px_5px_rgb(253,126,20,0.3),-10px_10px_rgba(253,126,20,0.2),-15px_15px_rgba(253,126,20,0.1),-20px_20px_rgba(253,126,20,0.05),7.5px_0px_5px_0px_rgba(0,0,0,0.3)]">
                                         <img className='w-full h-3/5 opacity-60 select-none' src={event.img} alt="logo"></img>
                                         <div className='flex flex-col justify-center h-2/5 bg-gray-300 px-4'>
